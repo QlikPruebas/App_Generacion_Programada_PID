@@ -1,0 +1,21 @@
+///$tab Fechas
+// //PCP y PID no requiere de la indhor ya viene con fecha pero se requiere unificar campos de fecha.
+// CALENDARIO:
+// LOAD
+//     %KEY_BLOQUE_FUENTE_VERSION,
+//     AñoMesNum,	
+//     MesAño,
+// 	Mes,
+//     Año,
+//     Semana,
+//     Dia,
+//     Hora,
+// 	DiaMesHora,
+//     Fecha,
+//     Fecha_Hora,
+//     Fecha_Efectiva,
+//     fecha_version		AS fecha_version_indhor,
+//     numero_version		AS numero_version_indhor,
+//     fuente				AS fuente_indhor
+// FROM [lib://STG/PLATAFORMA_PROGRAMACION/STG_PRG_GENERACION_PROGRAMADA_NORMATIVO.qvd] (qvd)
+// WHERE MATCH(fuente,'PID')>0;
